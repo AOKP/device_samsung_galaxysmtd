@@ -20,6 +20,9 @@
 #Video Devices
 BOARD_SECOND_CAMERA_DEVICE := /dev/video2
 
+# Inline Kernel Config
+TARGET_KERNEL_CONFIG := cyanogenmod_galaxysmtd_defconfig
+
 #Prebuilt Kernel
 TARGET_PREBUILT_KERNEL := device/samsung/galaxysmtd/kernel
 
